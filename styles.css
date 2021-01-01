@@ -38,6 +38,21 @@
     "si sb pi pb vi vb .";
 }
 
+.logo-icons {
+  display: grid;
+  grid-template-rows: .5fr 1.5fr;
+}
+
+.admin-elements {
+  display: grid;
+  grid-template-columns: .5fr 1.5fr;
+}
+
+.logo-elements {
+  display: grid;
+  grid-template-columns: 1.5fr .5fr;
+}
+
 .card-container {
   display: grid;
   height: 90vh;
