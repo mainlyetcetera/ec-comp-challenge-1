@@ -109,6 +109,21 @@ h1 {
   background-image: url("./assets/zodiac/virgo.png");  
 }
 
+.arrow-background {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-img {
+  height: 2em;
+  width: 2em;  
+}
+
 .card-content {
   margin-left: 20px;
   margin-right: 20px;
