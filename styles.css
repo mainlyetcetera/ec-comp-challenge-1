@@ -120,3 +120,10 @@
   background-color: #efefef;
   font-size: 14px;
 }
+
+.attachments-number {
+  color: #60c8ff;
+  font-size: 48px;
+  margin-top: -.5em;
+  margin-bottom: -.1em;
+}
