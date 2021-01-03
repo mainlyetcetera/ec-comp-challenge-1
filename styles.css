@@ -104,8 +104,19 @@
   background-image: url("./assets/zodiac/virgo.png");  
 }
 
+.card-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .sub-info {
   color: #cdcdcf;
   font-size: 14.5px;
   margin-top: -1.25em;
+}
+
+.link {
+  color: #848484;
+  background-color: #efefef;
+  font-size: 14px;
 }
