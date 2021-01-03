@@ -121,6 +121,10 @@
   font-size: 14px;
 }
 
+.attachments-label {
+  font-size: 12.5px;
+}
+
 .attachments-number {
   color: #60c8ff;
   font-size: 48px;
