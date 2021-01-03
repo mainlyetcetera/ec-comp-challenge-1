@@ -57,6 +57,10 @@
   grid-template-columns: 1.5fr .5fr;
 }
 
+h1 {
+  font-size: 36px;
+}
+
 .card-container {
   display: grid;
   height: 90vh;
