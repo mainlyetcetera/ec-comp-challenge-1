@@ -62,3 +62,9 @@
 .user-card {
   border: solid black 1px;
 }
+
+#whole-img-cancer {
+  background-image: url("./assets/cancer.png");
+  width: 100%;
+  height: 15em;
+}
