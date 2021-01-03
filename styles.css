@@ -121,6 +121,10 @@
   font-size: 14px;
 }
 
+.playlist-name {
+  margin-top: -1em;
+}
+
 .attachments-label {
   font-size: 12.5px;
 }
