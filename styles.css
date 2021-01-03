@@ -103,3 +103,9 @@
 #whole-img-virgo {
   background-image: url("./assets/zodiac/virgo.png");  
 }
+
+.sub-info {
+  color: #cdcdcf;
+  font-size: 14.5px;
+  margin-top: -1.25em;
+}
