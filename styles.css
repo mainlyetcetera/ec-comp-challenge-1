@@ -130,11 +130,17 @@ h1 {
 
 .top-image-info {
   grid-area: i;
+  color: #ffffff;
 }
 
 .arrow-img {
   height: 2em;
   width: 2em;  
+}
+
+.image-number {
+  font-size: 50px;
+  margin-top: -.5em;
 }
 
 .card-content {
