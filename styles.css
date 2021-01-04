@@ -1,3 +1,7 @@
+* {
+  font-family: "EB Garamond", serif;
+}
+
 .header {
   display: grid;
   height: 10vh;
@@ -53,17 +57,30 @@
   grid-template-columns: 1.5fr .5fr;
 }
 
+h1 {
+  font-size: 36px;
+}
+
 .card-container {
   display: grid;
   height: 90vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.7rem;
 }
 
-.user-card {
-  border: solid black 1px;
+.user-card {  
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);  
 }
 
 .whole-top-image {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr .5fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "a . i"
+  ". . .";  
+  align-items: center;
+  justify-items: center;
   width: 100%;
   height: 14.5em;
 }
@@ -98,4 +115,69 @@
 
 #whole-img-virgo {
   background-image: url("./assets/zodiac/virgo.png");  
+}
+
+.arrow-background {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: a;
+  margin-top: -1em;
+}
+
+.top-image-info {
+  grid-area: i;
+  color: #ffffff;
+  margin-right: 2em;
+  margin-top: 1em;
+}
+
+.arrow-img {
+  height: 2em;
+  width: 2em;  
+}
+
+.image-number {
+  font-size: 50px;
+  margin-top: -.5em;
+}
+
+.card-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sub-info {
+  color: #cdcdcf;
+  font-size: 14.5px;
+  margin-top: -1.25em;
+}
+
+.link {
+  color: #848484;
+  background-color: #efefef;
+  font-size: 14px;
+}
+
+.playlist-label {
+  font-size: 12.5px;
+}
+
+.playlist-name {
+  margin-top: -1em;
+}
+
+.attachments-label {
+  font-size: 12.5px;
+}
+
+.attachments-number {
+  color: #60c8ff;
+  font-size: 48px;
+  margin-top: -.5em;
+  margin-bottom: 20px;
 }
